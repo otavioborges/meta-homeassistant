@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "cc0cbfcaabf765d44595825fb96a99bb12c79716b73b44330ea38ee2b0
 
 PYPI_PACKAGE = "ifaddr"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

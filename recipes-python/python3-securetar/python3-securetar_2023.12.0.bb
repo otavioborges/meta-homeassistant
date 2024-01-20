@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "ff400fded51af01ad9f7a24165897d630a145a65bcf3b74d4079ed7940
 
 PYPI_PACKAGE = "securetar"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

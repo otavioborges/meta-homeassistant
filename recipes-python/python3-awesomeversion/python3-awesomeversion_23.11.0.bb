@@ -6,7 +6,7 @@ SRC_URI[sha256sum] = "9146329196f0f045887de6c195730750f8f7a9302d1c149378db73ab5d
 
 PYPI_PACKAGE = "awesomeversion"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3
 
 do_configure:prepend() {
 cat > ${S}/setup.py <<-EOF

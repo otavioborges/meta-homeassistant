@@ -6,7 +6,7 @@ SRC_URI[sha256sum] = "23478f88c37f27d76ac8aee6c905017a143b0b1b886c3c9f66bc2fd94f
 
 PYPI_PACKAGE = "typing_extensions"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3
 
 do_configure:prepend() {
 cat > ${S}/setup.py <<-EOF

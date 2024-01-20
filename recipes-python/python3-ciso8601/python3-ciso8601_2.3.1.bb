@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "3212c7ffe5d8080270548b5f2692ffd2039683b6628a8d2ad456122cc5
 
 PYPI_PACKAGE = "ciso8601"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

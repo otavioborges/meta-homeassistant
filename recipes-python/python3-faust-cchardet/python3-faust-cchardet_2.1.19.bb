@@ -7,4 +7,4 @@ SRC_URI[sha256sum] = "f89386297cde0c8e0f5e21464bc2d6d0e4a4fc1b1d77cdb238ca24d740
 DEPENDS += "python3-cython-native python3-cython"
 PYPI_PACKAGE = "faust-cchardet"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

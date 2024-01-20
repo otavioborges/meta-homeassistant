@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "ac8bd6544d4bb2c9792bf3a159e80bba8fda7f07e81bc3aed565432d59
 
 PYPI_PACKAGE = "Jinja2"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

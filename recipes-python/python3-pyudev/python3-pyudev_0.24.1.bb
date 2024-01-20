@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "75e54d37218f5ac45b0da1f0fd9cc5e526a3cac3ef1cfad410cf7ab338
 
 PYPI_PACKAGE = "pyudev"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

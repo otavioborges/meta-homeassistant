@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "e911d398eaf0539cf3c63b4217357b51a3d1b7e4a50607d1591cf2b49f
 
 PYPI_PACKAGE = "pulsectl"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

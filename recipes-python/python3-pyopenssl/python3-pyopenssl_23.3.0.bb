@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "6b2cba5cc46e822750ec3e5a81ee12819850b11303630d575e98108a07
 
 PYPI_PACKAGE = "pyOpenSSL"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

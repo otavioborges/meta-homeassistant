@@ -60,4 +60,4 @@ SRC_URI[sha256sum] = "27d375903ac8261cfe4047f6709d16f7d18d39b1ec92aaf72af989552a
 
 PYPI_PACKAGE = "bcrypt"
 CARGO_SRC_DIR = "src/_bcrypt"
-inherit pypi setuptools3 python_pyo3 setuptools3_rust
+inherit pypi python_setuptools_build_meta setuptools3 python_pyo3 setuptools3_rust

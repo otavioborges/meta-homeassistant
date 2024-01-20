@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "31bf8192fbb6e09a2a7ff4de31b9eb127c58545af22125ca1fa67c91c8
 
 PYPI_PACKAGE = "dirhash"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

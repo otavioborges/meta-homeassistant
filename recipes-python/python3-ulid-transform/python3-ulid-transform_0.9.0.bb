@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "e50c78ddb89629d1d7b5e7436b51bb49ac3ddca7a278a78640299d4cd4
 
 PYPI_PACKAGE = "ulid_transform"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

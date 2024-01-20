@@ -6,7 +6,7 @@ SRC_URI[sha256sum] = "e8ac72b855a194da4c869e89f69a9dc9339229d2366931dfea34cff93f
 
 PYPI_PACKAGE = "aiohttp_zlib_ng"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3
 
 do_configure:prepend() {
 cat > ${S}/setup.py <<-EOF

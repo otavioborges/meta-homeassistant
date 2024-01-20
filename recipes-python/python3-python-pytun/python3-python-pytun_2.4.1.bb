@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "20b53ea7a09dfe173c00ec0a00eea508b05e959f5dc4b4bb698aa52252
 
 PYPI_PACKAGE = "python-pytun"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

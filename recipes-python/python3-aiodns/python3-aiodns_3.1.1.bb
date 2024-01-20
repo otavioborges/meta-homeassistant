@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "1073eac48185f7a4150cad7f96a5192d6911f12b4fb894de80a088508c
 
 PYPI_PACKAGE = "aiodns"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

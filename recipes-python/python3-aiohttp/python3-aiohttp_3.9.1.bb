@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "8fc49a87ac269d4529da45871e2ffb6874e87779c3d0e2ccd813c08992
 
 PYPI_PACKAGE = "aiohttp"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

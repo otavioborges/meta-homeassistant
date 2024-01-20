@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "9b469f3a900bf28dc19b8cfbf8019bf47f7fdd1a65a1d4ffb98fc14166
 
 PYPI_PACKAGE = "certifi"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

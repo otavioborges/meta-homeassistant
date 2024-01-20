@@ -6,7 +6,7 @@ SRC_URI[sha256sum] = "0fc11c60a4209429340d9d2d07b6b0819a45ebd0d47ceb78bea915dbe0
 
 PYPI_PACKAGE = "aiohttp_fast_url_dispatcher"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3
 
 do_configure:prepend() {
 cat > ${S}/setup.py <<-EOF

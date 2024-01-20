@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "323736fb92cd9418fc5e7133bc953e11a9da04f4483f828b527db553f1
 
 PYPI_PACKAGE = "docker"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

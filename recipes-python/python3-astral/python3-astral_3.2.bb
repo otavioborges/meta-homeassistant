@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "9b7c3b412e9e69d172cfb24be0e6addcc9f1bd01a28db8bebe66d75ccc
 
 PYPI_PACKAGE = "astral"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

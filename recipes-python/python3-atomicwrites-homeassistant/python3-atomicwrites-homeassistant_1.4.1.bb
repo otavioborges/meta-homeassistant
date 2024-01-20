@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "256a672106f16745445228d966240b77b55f46a096d20305901a57aa5d
 
 PYPI_PACKAGE = "atomicwrites-homeassistant"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

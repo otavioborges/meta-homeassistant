@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "87b852d2005f1d59399ca51c5f3538f28a4742d739d7abe82b7ae8d01d
 
 PYPI_PACKAGE = "dbus_fast"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

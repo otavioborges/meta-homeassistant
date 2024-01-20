@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "ce0d46ddb668b3be82f4ed5e503dbc33dd815d83e2eb6824211310d3fb
 
 PYPI_PACKAGE = "python-slugify"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

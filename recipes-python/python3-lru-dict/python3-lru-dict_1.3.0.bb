@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "54fd1966d6bd1fcde781596cb86068214edeebff1db13a2cea11079e3f
 
 PYPI_PACKAGE = "lru-dict"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

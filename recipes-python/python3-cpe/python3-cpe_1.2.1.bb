@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "e742635e13cc0f6e02cb62a367dc789fb0e7dba1317822a8760c8de312
 
 PYPI_PACKAGE = "cpe"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

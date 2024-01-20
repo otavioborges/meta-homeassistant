@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "81de08ac11bcb85841e440c13611c00b67d3bf82698314928d0b676362
 
 PYPI_PACKAGE = "Brotli"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

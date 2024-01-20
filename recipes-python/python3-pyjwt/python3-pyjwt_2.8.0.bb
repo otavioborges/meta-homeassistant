@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "57e28d156e3d5c10088e0c68abb90bfac3df82b40a71bd0daa20c65ccd
 
 PYPI_PACKAGE = "PyJWT"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

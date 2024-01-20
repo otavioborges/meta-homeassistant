@@ -7,7 +7,7 @@ SRC_URI[sha256sum] = "451b55c30d5185ea6b23c2c793abf9bb237d2a7dfb901ced6ff69ad37e
 #SETUPTOOLS_SETUP_PATH = "${S}/httpx"
 PYPI_PACKAGE = "httpx"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3
 
 do_configure:prepend() {
 cat > ${S}/setup.py <<-EOF

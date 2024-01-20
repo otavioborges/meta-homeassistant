@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "7b6e5f7553ce02461cce17fedb0e3603195496eb260ece9aca86cc4cc6
 
 PYPI_PACKAGE = "voluptuous"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

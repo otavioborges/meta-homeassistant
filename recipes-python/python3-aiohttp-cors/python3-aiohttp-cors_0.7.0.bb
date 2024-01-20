@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "4d39c6d7100fd9764ed1caf8cebf0eb01bf5e3f24e2e073fda6234bc48
 
 PYPI_PACKAGE = "aiohttp-cors"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

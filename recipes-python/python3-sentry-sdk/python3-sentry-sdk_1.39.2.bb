@@ -6,4 +6,4 @@ SRC_URI[sha256sum] = "24c83b0b41c887d33328a9166f5950dc37ad58f01c9f2fbff6b87a6f10
 
 PYPI_PACKAGE = "sentry-sdk"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3

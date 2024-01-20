@@ -6,7 +6,7 @@ SRC_URI[sha256sum] = "53a489dc9449636e480a784359ae2aab3191748c920649551c8e378622
 
 PYPI_PACKAGE = "deepmerge"
 
-inherit pypi setuptools3
+inherit pypi python_setuptools_build_meta setuptools3
 
 do_configure:prepend() {
 cat > ${S}/setup.py <<-EOF
