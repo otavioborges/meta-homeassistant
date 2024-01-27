@@ -1,0 +1,21 @@
+From 48e840bde62141fe0c805b224ba3569b0f88a2da Mon Sep 17 00:00:00 2001
+From: Otavio Cardoso Borges <otavio.car.borges@gmail.com>
+Date: Sat, 27 Jan 2024 12:23:42 -0800
+Subject: [PATCH] panic 'abort' strategy is breaking compilation
+
+---
+ Cargo.toml | 1 -
+ 1 file changed, 1 deletion(-)
+
+diff --git a/Cargo.toml b/Cargo.toml
+index 8dfc628..5bfd238 100644
+--- a/Cargo.toml
++++ b/Cargo.toml
+@@ -86,7 +86,6 @@ debug = false
+ incremental = false
+ lto = "thin"
+ opt-level = 3
+-panic = "abort"
+ 
+ [profile.release.build-override]
+ opt-level = 0

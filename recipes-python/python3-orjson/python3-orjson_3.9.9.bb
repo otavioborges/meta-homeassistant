@@ -6,6 +6,7 @@ LIC_FILES_CHKSUM = "file://LICENSE-APACHE;md5=1836efb2eb779966696f473ee8540542"
 DEPENDS += "\
     python3-maturin-native \
 "
+SRC_URI += "file://0001-panic-abort-strategy-is-breaking-compilation.patch"
 SRC_URI[sha256sum] = "02e693843c2959befdd82d1ebae8b05ed12d1cb821605d5f9fe9f98ca5c9fd2b"
 
 PYPI_PACKAGE = "orjson"
